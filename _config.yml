@@ -87,6 +87,7 @@ exclude:
   - CNAME
 
 collection:
-  - songs
+  - songs:
+      output: true
 collections_dir: 
   my_collections
