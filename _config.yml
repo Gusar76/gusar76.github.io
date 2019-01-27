@@ -89,5 +89,3 @@ exclude:
 collection:
   - songs:
       output: true
-collections_dir: 
-  my_collections
