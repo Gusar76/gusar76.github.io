@@ -88,3 +88,5 @@ exclude:
 
 collection:
   - songs
+collections_dir: 
+  my_collections
