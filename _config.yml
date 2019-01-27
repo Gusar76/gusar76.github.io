@@ -89,3 +89,4 @@ exclude:
 collection:
   songs:
     output: true
+    permalink: /:collection/:path/
