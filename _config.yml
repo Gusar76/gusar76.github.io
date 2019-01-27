@@ -87,5 +87,5 @@ exclude:
   - CNAME
 
 collection:
-  - songs:
-      output: true
+  songs:
+    output: true
