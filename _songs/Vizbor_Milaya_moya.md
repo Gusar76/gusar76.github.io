@@ -1,5 +1,4 @@
 ---
-layout: song
 author: Визбор Юрий
 title: Милая моя
 ton: Em
