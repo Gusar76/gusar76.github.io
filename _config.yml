@@ -89,6 +89,8 @@ exclude:
 collections:
   authors:
     output: true
+  songs:
+    output: true
 
 defaults:
   - scope:
@@ -96,6 +98,11 @@ defaults:
       type: "authors"
     values:
       layout: "author"
+  - scope:
+      path: ""
+      type: "songs"
+    values:
+      layout: "song"
   - scope:
       path: ""
       type: "posts"
