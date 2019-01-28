@@ -90,7 +90,7 @@ collections:
   authors:
     output: true
 
-    defaults:
+defaults:
   - scope:
       path: ""
       type: "authors"
