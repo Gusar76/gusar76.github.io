@@ -1,12 +1,11 @@
 ---
 layout: default
 ---
-
 <div class="songs">
   {% for song in site.songs %}
     <article class="song">
       <h2>{{ song.author }} - {{ song.title }}</h2>
-      <p>{{ song.content}}</p>
+      <p>{{ song.content }}</p>
     </article>
   {% endfor %}
 </div>
