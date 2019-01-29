@@ -3,10 +3,10 @@ layout: default
 ---
 
 <div class="songs">
-  {% for songs in site.songs %}
+  {% for song in site.songs %}
     <article class="song">
-      <h2>{{ songs.author }} - {{ songs.title }}</h2>
-      <p>{{ songs.content | markdownify }}</p>
+      <h2>{{ song.author }} - {{ song.title }}</h2>
+      <p>{{ song.songText}}</p>
     </article>
   {% endfor %}
 </div>
