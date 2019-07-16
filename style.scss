@@ -12,18 +12,24 @@
 /**************/
 /* BASE RULES */
 /**************/
-
+html,
+body {
+  height: 100%;
+}
 html {
   font-size: 100%;
 }
 
 body {
-	background: $white;
+  display: flex;
+  flex-direction: column;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
+  flex: 1 0 auto;
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
@@ -35,8 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 1.7;
-  margin: 1em 0 15px;
+  margin: 10px 0;
   padding: 0;
 
   @include mobile {
@@ -151,12 +156,14 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
+  flex: 0 0 auto;
+  background: #eee;
 }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  padding: 10px 0;
+  // border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -272,6 +279,7 @@ nav {
 }
 
 .wrapper-footer {
+  flex: 0 0 auto;
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
@@ -279,7 +287,7 @@ nav {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
 }
 
